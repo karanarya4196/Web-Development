@@ -1,0 +1,295 @@
+@import url('http://fonts.googleapis.com/css?family=Josefin+Sans');
+body{
+	padding: 0px;
+	margin: 0px;
+	font-family: josefin sans;
+}
+#header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 50;
+	background-color: #2C8A2F;
+	width: 100%;
+}
+#header ul{
+	list-style-type:none;
+	margin-top: 0;
+	padding: .5% 0;
+	
+}
+#header ul li{
+	font-family:josefin sans;
+	font-size: 28px;
+	font-weight:bold;
+	color: white;
+	display: inline;
+}
+#header ul li a{
+	color:#fff;
+	text-decoration: none;
+}
+#header ul li:first-child{
+	margin-right: 11%;
+	margin-left: 1%;
+
+}
+#header ul li:last-child{
+	float:right;
+	margin-right: 1%;
+}
+#headimagebackground{
+	width: 100%;
+	height: 300px;
+	margin-top: 4%; 
+}
+#sidemenu ul{
+	list-style-type:none;
+	background-color: #185E18;
+	padding:0;
+	margin: 0;
+	top: 0;
+	left: 0;
+	 z-index: 100; 
+	 position: fixed; 
+	width:100%;
+	height:100%;
+	position: fixed;
+	overflow: auto;
+}
+#sidemenu ul li a{
+	padding: 17px 0;
+	text-decoration: none;
+	font-family: Josefin Sans;
+	font-size: 24px;
+	color: #fff;
+	display: block;
+	text-align: center;
+	
+	font-weight: bold;
+}
+#sidemenu ul li a:hover:not(#spirit){
+	color: #000;
+
+}
+
+#spirit{
+	font-family: josefin sans;
+	font-size: 30px;
+	color: #C2FFC2;
+	border-bottom: 3px solid #C2FFC2;
+	border-radius: 0px;
+}
+#maindiv{
+	width:98%;
+	background-color: #F0FAF5;
+	margin:auto;
+	height: auto;
+}
+#bigdiv{
+	width: 100%;
+	height: auto;
+	padding-bottom: 2%;
+}
+#blood{
+	border-radius: 20%;
+	margin-left:1.3%;
+	width: 100%;
+	height: 258px;
+	
+}
+#bloodbox{
+	width: 60%;
+	margin: auto;
+	padding-top: 2%;
+}
+#figcap{
+	text-align: center;
+	font-family: josefin sans;
+	font-size: 28px;
+	font-weight: bold;
+	font-style: italic;
+	color: #185E18;
+	margin-top: 0;
+}
+#textdiv{
+	width: 90%;
+	margin: auto;
+	height: auto;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	
+	
+}
+#bloodtext{
+	font-size: 21px;
+	line-height: 2;
+	text-align: center;
+	font-weight: bold;
+	height: auto;
+	
+}
+#bigdivhealth{
+	width: 100%;
+	height: auto;
+	padding-bottom: 2%;
+}
+#health{
+	border-radius: 20%;
+	margin-left:1.3%;
+	width: 100%;
+	height: 258px;
+	
+}
+#healthbox{
+	width: 60%;
+	margin: auto;
+	padding-top: 2%;
+}
+#figcaphealth{
+	text-align: center;
+	font-family: josefin sans;
+	font-size: 28px;
+	font-weight: bold;
+	font-style: italic;
+	color: #185E18;
+	margin-top: 0;
+}
+#textdivhealth{
+	width: 90%;
+	margin: auto;
+	height: auto;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	
+	
+}
+#healthtext{
+	font-size: 21px;
+	line-height: 2;
+	text-align: center;
+	font-weight: bold;
+	height: auto;
+	
+}
+#bigdiveye{
+	width: 100%;
+	height: auto;
+	padding-bottom: 2%;
+
+}
+#eye{
+	border-radius: 20%;
+	margin-left:1.3%;
+	width: 100%;
+	height: 258px;
+	
+}
+#eyebox{
+	width: 60%;
+	margin: auto;
+	padding-top: 2%;
+}
+#figcapeye{
+	text-align: center;
+	font-family: josefin sans;
+	font-size: 28px;
+	font-weight: bold;
+	font-style: italic;
+	color: #185E18;
+	margin-top: 0;
+}
+#textdiveye{
+	width: 90%;
+	margin: auto;
+	height: auto;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	
+	
+}
+#eyetext{
+	font-size: 21px;
+	line-height: 2;
+	text-align: center;
+	font-weight: bold;
+	height: auto;
+	
+}
+#bigdivku{
+	width: 100%;
+	height: auto;
+	padding-bottom: 2%
+}
+#ku{
+	border-radius: 20%;
+	margin-left:1.3%;
+	width: 100%;
+	height: 258px;
+	
+}
+#kubox{
+	width: 60%;
+	margin: auto;
+	padding-top: 2%;
+}
+#figcapku{
+	text-align: center;
+	font-family: josefin sans;
+	font-size: 28px;
+	font-weight: bold;
+	font-style: italic;
+	color: #185E18;
+	margin-top: 0;
+}
+#textdivku{
+	width: 90%;
+	margin: auto;
+	height: auto;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	
+	
+}
+#kutext{
+	font-size: 21px;
+	line-height: 2;
+	text-align: center;
+	font-weight: bold;
+	height: auto;
+	
+}
+
+#footerbar{
+	list-style-type:none;
+	padding:0px;
+	margin: 0;
+	background-color: #808080;
+	overflow: hidden;
+	width: 100%;
+
+}
+
+#footerbar li{
+	float: left;
+	padding : 1% 4.5%;
+}
+#footerbar li a{
+	text-decoration:none;
+	display: inline-block;
+	text-align: center;
+	
+	font-size: 22px;
+	font-family: Josefin Sans;
+	font-weight: bold;
+	color: #000;
+}
+#footerbar li a:hover{
+	color: #B0E0E6;
+}
+#footerbar li:first-child{
+	margin-left: 1%;
+}
+#rights, #society{
+	display: none;
+}

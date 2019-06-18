@@ -1,0 +1,283 @@
+@import url('http://fonts.googleapis.com/css?family=Josefin+Sans');
+body{
+	padding: 0px;
+	margin: 0px;
+	font-family: josefin sans;
+}
+#header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 50;
+	background-color: #2C8A2F;
+	width: 100%;
+}
+#header ul{
+	list-style-type:none;
+	margin-top: 0;
+	padding: .5% 0;
+	
+}
+#header ul li{
+	font-family:josefin sans;
+	font-size: 30px;
+	font-weight:bold;
+	color: white;
+	display: inline;
+}
+#header ul li a{
+	color:#fff;
+	text-decoration: none;
+}
+#header ul li:first-child{
+	margin-right: 11%;
+	margin-left: 1%;
+
+}
+#header ul li:last-child{
+	float:right;
+	margin-right: 1%;
+}
+#headimagebackground{
+	width: 100%;
+	height: 300px;
+	margin-top: 4%; 
+}
+#sidemenu ul{
+	list-style-type:none;
+	background-color: #185E18;
+	padding:0;
+	margin: 0;
+	top: 0;
+	left: 0;
+	 z-index: 100; 
+	 position: fixed; 
+	width:100%;
+	height:100%;
+	position: fixed;
+	overflow: auto;
+}
+#sidemenu ul li a{
+	padding: 17px 0;
+	text-decoration: none;
+	font-family: Josefin Sans;
+	font-size: 24px;
+	color: #fff;
+	display: block;
+	text-align: center;
+	
+	font-weight: bold;
+}
+#sidemenu ul li a:hover:not(#spirit){
+	color: #000;
+
+}
+
+#spirit{
+	font-family: josefin sans;
+	font-size: 30px;
+	color: #C2FFC2;
+	border-bottom: 3px solid #C2FFC2;
+	border-radius: 0px;
+}
+#maindiv{
+	width:74%;
+	background-color: #F0FAF5;
+	margin:auto;
+	height: auto;
+}
+#bigdiv{
+	width: 100%;
+	height: auto;
+	padding-bottom: 2%;
+}
+#blood{
+	border-radius: 20%;
+	margin-left:1.3%;
+	width: 100%;
+	height: 318px;
+	
+}
+#bloodbox{
+	width: 47%;
+	
+	float: left;
+}
+#figcap{
+	text-align: center;
+	font-family: josefin sans;
+	font-size: 28px;
+	font-weight: bold;
+	font-style: italic;
+	color: #185E18;
+}
+#textdiv{
+	width: 47%;
+	margin-left: 53%;
+	height: auto;
+	padding-top: 10.4%;
+	padding-bottom: 4.0%;
+	
+	
+}
+#bloodtext{
+	font-size: 21px;
+	line-height: 2;
+	text-align: center;
+	font-weight: bold;
+	height: auto;
+	
+}
+#bigdivhealth{
+	width: 100%;
+	height: auto;
+	padding-bottom: 2%;
+}
+#health{
+	border-radius: 20%;
+	margin-right:1.3%;
+	width: 100%;
+	height: 318px;
+}
+#healthbox{
+	width: 47%;
+	float: right;
+	
+}
+#figcaphealth{
+	text-align: center;
+	font-family: josefin sans;
+	font-size: 28px;
+	font-weight: bold;
+	font-style: italic;
+	color: #185E18;
+}
+#textdivhealth{
+	width: 47%;
+	height: auto;
+	padding-top: 6.8%;
+	
+}
+#healthtext{
+	font-size: 21px;
+	line-height: 2;
+	text-align: center;
+	font-weight: bold;
+	height: auto;
+	
+}
+#bigdiveye{
+	width: 100%;
+	height: auto;
+	padding-bottom: 2%;
+
+}
+#eye{
+	border-radius: 20%;
+	float: left;
+	margin-left:1.3%;
+	width: 100%;
+	height: 318px;
+}
+#eyebox{
+	width: 47%;
+	
+	float: left;
+}
+#figcapeye{
+	text-align: center;
+	font-family: josefin sans;
+	font-size: 28px;
+	font-weight: bold;
+	font-style: italic;
+	color: #185E18;
+}
+#textdiveye{
+	width: 47%;
+	margin-left: 53%;
+	height: auto;
+	padding-top: 7.5%;
+	padding-bottom: 0;
+	
+}
+#eyetext{
+	font-size: 21px;
+	line-height: 2;
+	text-align: center;
+	font-weight: bold;
+	height: auto;
+	
+}
+#bigdivku{
+	width: 100%;
+	height: auto;
+	padding-bottom: 2%
+}
+#ku{
+	border-radius: 20%;
+	float: right;
+	margin-right:1.3%;
+	width: 100%;
+	height: 318px;
+	
+}
+#kubox{
+	width: 47%;
+	float: right;
+	
+}
+#figcapku{
+	text-align: center;
+	font-family: josefin sans;
+	font-size: 28px;
+	font-weight: bold;
+	font-style: italic;
+	color: #185E18;
+}
+#textdivku{
+	width: 47%;
+	margin-left: 0%;
+	height: auto;
+	padding-top: 8.8%;
+	padding-bottom: 1.7%;
+	
+}
+#kutext{
+	font-size: 21px;
+	line-height: 2;
+	text-align: center;
+	font-weight: bold;
+	height: auto;
+	
+}
+
+#footerbar{
+	list-style-type:none;
+	padding:0px;
+	margin: 0;
+	background-color: #808080;
+	overflow: hidden;
+	width: 100%;
+
+}
+
+#footerbar li{
+	float: left;
+	padding : 1% 1.2%;
+}
+#footerbar li a{
+	text-decoration:none;
+	display: inline-block;
+	text-align: center;
+	
+	font-size: 22px;
+	font-family: Josefin Sans;
+	font-weight: bold;
+	color: #000;
+}
+#footerbar li a:hover{
+	color: #B0E0E6;
+}
+#footerbar li:first-child{
+	padding-left: 2%;
+}

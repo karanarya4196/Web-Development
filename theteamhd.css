@@ -1,0 +1,358 @@
+@import url('http://fonts.googleapis.com/css?family=Josefin+Sans');
+body{
+	padding: 0px;
+	margin: 0px;
+	font-family: josefin sans;
+}
+#header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 50;
+	background-color: #b2497d;
+	width: 100%;
+}
+#header ul{
+	list-style-type:none;
+	margin-top: 0;
+	padding: .5% 0;
+	
+}
+#header ul li{
+	font-family:josefin sans;
+	font-size: 30px;
+	font-weight:bold;
+	color: white;
+	display: inline;
+}
+#header ul li a{
+	color:#fff;
+	text-decoration: none;
+}
+#header ul li:first-child{
+	margin-right: 11%;
+	margin-left: 1%;
+
+}
+#header ul li:last-child{
+	float:right;
+	margin-right: 1%;
+}
+#headimagebackground{
+	width: 100%;
+	height: 300px;
+	margin-top: 4%; 
+}
+#sidemenu ul{
+	list-style-type:none;
+	background-color: #7f345a;
+	padding:0;
+	margin: 0;
+	top: 0;
+	left: 0;
+	 z-index: 100; 
+	 position: fixed; 
+	width:100%;
+	height:100%;
+	position: fixed;
+	overflow: auto;
+}
+#sidemenu ul li a{
+	padding: 17px 30px;
+	text-decoration: none;
+	font-family: Josefin Sans;
+	font-size: 26px;
+	color: #fff;
+	display: block;
+	text-align: center;
+	
+	font-weight: bold;
+}
+#sidemenu ul li a:hover:not(#spirit){
+	color: #000;
+
+}
+
+#spirit{
+	font-family: josefin sans;
+	font-size: 30px;
+	color: #ffb4d9;
+	border-bottom: 3px solid #ffb4d9;
+	border-radius: 0px;
+}
+#maindiv{
+	width:74%;
+	background-color: #fff0f7;
+	margin: auto;
+	height: auto;
+	padding: 1.5% 0;
+	
+}
+.convenerbox{
+	width: 100%;
+	height: 450px;
+	
+	margin-bottom: 3%;
+}
+#imagebox{
+	margin: auto;
+	width: 54%;
+	
+}
+#image{
+	border-radius: 45%;
+	
+	width: 100%;
+	height: 185px;
+}
+.convenerdetailbox h1{
+	font-size: 30px;
+	font-weight: bold;
+	color: #b2497d;
+	text-align: center;
+	font-style: italic;
+}
+.convenerdetailbox{
+	width: 30%;
+	margin: auto;
+	
+}
+
+.convenertextbox{
+	margin: auto;
+	width: 100%;
+	
+}
+.convenertextbox h2{
+	font-style: italic;
+	text-align: center;
+	font-size: 24px;
+}
+.convenertextbox p{
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+}
+.convenertextbox p a{
+	text-decoration: none;
+	color: #b2497d;
+	font-weight: bold;
+}
+#iconbox{
+	height: 30px;
+	width: 75px;
+	margin: auto;
+	
+}
+.fbiconbox{
+	width: 30px;
+	height: 30px;
+	
+	float: left;
+}
+.liiconbox{
+	width: 30px;
+	height: 30px;
+	float: right;
+	
+}
+.bajiyapostdetailbox h1{
+	font-size: 30px;
+	font-weight: bold;
+	color: #b2497d;
+	text-align: center;
+	font-style: italic;
+}
+.bajiyapostdetailbox{
+	width: 30%;
+	margin: auto;
+	margin-left: 10%;
+	float: left;
+	
+}
+
+.bajiyaposttextbox{
+	margin: auto;
+	width: 100%;
+}
+.bajiyaposttextbox h2{
+	font-style: italic;
+	text-align: center;
+	font-size: 24px;
+}
+.bajiyaposttextbox p{
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+}
+.bajiyaposttextbox p a{
+	text-decoration: none;
+	color: #b2497d;
+	font-weight: bold;
+}
+.gajjupostdetailbox h1{
+	font-size: 30px;
+	font-weight: bold;
+	color: #b2497d;
+	text-align: center;
+	font-style: italic;
+}
+.gajjupostdetailbox{
+	width: 30%;
+	margin: auto;
+	margin-right: 10%;
+	float: right;
+	
+}
+
+.gajjuposttextbox{
+	margin: auto;
+	width: 100%;
+}
+.gajjuposttextbox h2{
+	font-style: italic;
+	text-align: center;
+	font-size: 24px;
+}
+.gajjuposttextbox p{
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+}
+.gajjuposttextbox p a{
+	text-decoration: none;
+	color: #b2497d;
+	font-weight: bold;
+}
+.hospidetailbox h1{
+	font-size: 30px;
+	font-weight: bold;
+	color: #b2497d;
+	text-align: center;
+	font-style: italic;
+}
+.hospidetailbox{
+	width: 30%;
+	margin: auto;
+}
+
+.hospitextbox{
+	margin: auto;
+	width: 100%;
+}
+.hospitextbox h2{
+	font-style: italic;
+	text-align: center;
+	font-size: 24px;
+}
+.hospitextbox p{
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+}
+.hospitextbox p a{
+	text-decoration: none;
+	color: #b2497d;
+	font-weight: bold;
+}
+.marketdetailbox h1{
+	font-size: 30px;
+	font-weight: bold;
+	color: #b2497d;
+	text-align: center;
+	font-style: italic;
+}
+.marketdetailbox{
+	width: 30%;
+	margin: auto;
+	margin-left: 10%;
+	float: left;
+	
+}
+
+.markettextbox{
+	margin: auto;
+	width: 100%;
+	
+}
+.markettextbox h2{
+	font-style: italic;
+	text-align: center;
+	font-size: 24px;
+}
+.markettextbox p{
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+}
+.markettextbox p a{
+	text-decoration: none;
+	color: #b2497d;
+	font-weight: bold;
+}
+.regdetailbox h1{
+	font-size: 30px;
+	font-weight: bold;
+	color: #b2497d;
+	text-align: center;
+	font-style: italic;
+}
+.regdetailbox{
+	width: 30%;
+	margin: auto;
+	margin-right: 10%;
+	float: right;
+	
+}
+
+.regtextbox{
+	margin: auto;
+	width: 100%;
+	
+}
+.regtextbox h2{
+	font-style: italic;
+	text-align: center;
+	font-size: 24px;
+}
+.regtextbox p{
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+}
+.regtextbox p a{
+	text-decoration: none;
+	color: #b2497d;
+	font-weight: bold;
+}
+
+#footerbar{
+	list-style-type:none;
+	padding:0px;
+	margin: 0;
+	background-color: #808080;
+	overflow: hidden;
+	width: 100%;
+
+}
+
+#footerbar li{
+	float: left;
+	padding : 1% 1.2%;
+}
+#footerbar li a{
+	text-decoration:none;
+	display: inline-block;
+	text-align: center;
+	
+	font-size: 22px;
+	font-family: Josefin Sans;
+	font-weight: bold;
+	color: #000;
+}
+#footerbar li a:hover{
+	color: #B0E0E6;
+}
+#footerbar li:first-child{
+	padding-left: 8%;
+}
