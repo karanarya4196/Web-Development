@@ -1,0 +1,589 @@
+@import url('http://fonts.googleapis.com/css?family=Josefin+Sans');
+body{
+	padding: 0px;
+	margin: 0px;
+	font-family: josefin sans;
+}
+#header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 50;
+	background-color: #001963;
+	width: 100%;
+}
+#header ul{
+	list-style-type:none;
+	margin-top: 0;
+	padding: .5% 0;
+	
+}
+#header ul li{
+	font-family:josefin sans;
+	font-size: 24px;
+	font-weight:bold;
+	color: white;
+	display: inline;
+}
+#header ul li a{
+	color:#fff;
+	text-decoration: none;
+}
+#header ul li:first-child{
+	margin-right: 5%;
+	margin-left: 3%;
+
+}
+#header ul li:last-child{
+	float:right;
+	margin-right: 1%;
+}
+#headimagebackground{
+	width: 100%;
+	height: 250px;
+	margin-top: 4%; 
+}
+#sidemenu ul{
+	list-style-type:none;
+	background-color: #101A38;
+	padding:0;
+	margin: 0;
+	top: 0;
+	left: 0;
+	 z-index: 100; 
+	 position: fixed; 
+	width:100%;
+	height:100%;
+	position: fixed;
+	overflow: auto;
+}
+#sidemenu ul li a{
+	padding: 17px 0;
+	text-decoration: none;
+	font-family: Josefin Sans;
+	font-size: 22px;
+	color: #fff;
+	display: block;
+	text-align: center;
+	
+	font-weight: bold;
+}
+#sidemenu ul li a:hover:not(#spirit){
+	color: #000;
+
+}
+
+#spirit{
+	font-family: josefin sans;
+	font-size: 28px;
+	color: #CFE8FF;
+	border-bottom: 3px solid #CFE8FF;
+	border-radius: 0px;
+}
+#maindiv{
+	width:98%;
+	background-color: #F5F9FF;
+	margin: auto;
+	height: auto;
+
+	
+}
+#litmenu{
+	list-style-type: none;
+	width: 100%;
+	padding-top: 2%;
+	padding-left: 0;
+	margin-top: 0px;
+	height: auto;
+}
+#litmenu li{
+	display: inline-block;
+	padding: 4% 5%;
+
+}
+#litmenu li a:link, #litmenu li a:visited{
+	padding: 2% 0;
+	text-decoration: none;
+	color: #001117;
+	font-size: 20px;
+	font-weight: bold;
+	font-style: italic;
+}
+#litmenu li a:hover, #litmenu li a:active{
+	text-decoration: none;
+	color: #37B0B0;
+	font-size: 20px;
+	font-weight: bold;
+	font-style: italic;
+}
+#litdownsec{
+	margin-top: 0px;
+}
+#litimgbox{
+	margin: auto;
+	width: 80%;
+
+}
+#litimg{
+	border-radius: 40%;	
+	height: 170px;
+	width: 100%;
+	margin: auto;
+}
+#litbox{
+	display: none;
+	
+}
+#littext{
+	font-size: 18px;
+	line-height: 2;
+	text-align: center;
+	font-weight: bold;
+	
+}
+.lithead{
+	color: #001963; font-size: 20px; font-weight: bold; font-style: italic;
+}
+#vectorbox{
+	width: 95%;
+	margin: auto;
+	margin-top: 2%;
+	height: 750px;
+}
+#vectorimg{
+	opacity: 0.1;
+	height: 750px;
+	width: 100%;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+#vectortext{
+	position: relative;
+	top: -750px;
+	left: 0;
+	padding: 0px 2% 0px 2%;
+}
+#vectorbox p, ol li{
+	font-size: 16px;
+	text-align: justify;
+	font-weight: bold;
+}
+#genusbox{
+	width: 95%;
+	margin: auto;
+	margin-top: 2%;
+	height: 390px;
+}
+#genusimg{
+	opacity: 0.1;
+	height: 390px;
+	width: 100%;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+#genustext{
+	position: relative;
+	top: -390px;
+	left: 0;
+	padding: 2%;
+}
+#genusbox p, ol li{
+	font-size: 16px;
+	text-align: justify;
+	font-weight: bold;
+}
+#ignitedbox{
+	width: 95%;
+	margin: auto;
+	margin-top: 2%;
+	height: 650px;
+}
+#ignitedimg{
+	opacity: 0.1;
+	height: 650px;
+	width: 100%;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+#ignitedtext{
+	position: relative;
+	top: -650px;
+	left: 0;
+	padding: 2%;
+}
+#ignitedbox p, ol li{
+	font-size: 16px;
+	text-align: justify;
+	font-weight: bold;
+}
+.clickhere a:link, .clickhere a:visited{
+	color: #001963;
+	text-decoration: none;
+	font-style: italic;
+}
+.clickhere a:hover, .clickhere a:active{
+	color: #37B0B0;
+	font-style: italic;
+}
+#scimenu{
+	list-style-type: none;
+	width: 100%;
+	padding-top: 2%;
+	padding-left: 0;
+	margin-top: 0px;
+	height: auto;
+}
+#scimenu li{
+	display: inline-block;
+	padding: 4% 5%;
+
+}
+#scimenu li a:link, #scimenu li a:visited{
+	padding: 2% 0;
+	text-decoration: none;
+	color: #001117;
+	font-size: 20px;
+	font-weight: bold;
+	font-style: italic;
+}
+#scimenu li a:hover, #scimenu li a:active{
+	text-decoration: none;
+	color: #37B0B0;
+	font-size: 20px;
+	font-weight: bold;
+	font-style: italic;
+}
+#scidownsec{
+	margin-top: 0px;
+}
+#sciimgbox{
+	margin: auto;
+	width: 80%;
+
+}
+#sciimg{
+	border-radius: 40%;	
+	height: 170px;
+	width: 100%;
+	margin: auto;
+}
+#scibox{
+	display: none;
+	
+}
+#scitext{
+	font-size: 18px;
+	line-height: 2;
+	text-align: center;
+	font-weight: bold;
+	
+}
+#polarisbox{
+	width: 95%;
+	margin: auto;
+	margin-top: 2%;
+	height: 250px;
+}
+#polarisimg{
+	opacity: 0.1;
+	height: 250px;
+	width: 100%;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+#polaristext{
+	position: relative;
+	top: -250px;
+	left: 0;
+	padding: 2%;
+}
+#polarisbox p, ol li{
+	font-size: 16px;
+	text-align: justify;
+	font-weight: bold;
+}
+#agnitiobox{
+	width: 95%;
+	margin: auto;
+	margin-top: 2%;
+	height: 380px;
+}
+#agnitioimg{
+	opacity: 0.1;
+	height: 380px;
+	width: 100%;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+#agnitiotext{
+	position: relative;
+	top: -380px;
+	left: 0;
+	padding: 2%;
+}
+#agnitiobox p, ol li{
+	font-size: 16px;
+	text-align: justify;
+	font-weight: bold;
+}
+#fabricabox{
+	width: 95%;
+	margin: auto;
+	margin-top: 2%;
+	height: 400px;
+}
+#fabricaimg{
+	opacity: 0.1;
+	height: 400px;
+	width: 100%;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+#fabricatext{
+	position: relative;
+	top: -400px;
+	left: 0;
+	padding: 2%;
+}
+#fabricabox p, ol li{
+	font-size: 16px;
+	text-align: justify;
+	font-weight: bold;
+}
+#busmenu{
+	list-style-type: none;
+	width: 100%;
+	padding-top: 2%;
+	padding-left: 0;
+	margin-top: 0px;
+	height: auto;
+}
+#busmenu li{
+	display: inline-block;
+	padding: 4% 5%;
+
+}
+#busmenu li a:link, #busmenu li a:visited{
+	padding: 2% 0;
+	text-decoration: none;
+	color: #001117;
+	font-size: 20px;
+	font-weight: bold;
+	font-style: italic;
+}
+#busmenu li a:hover, #busmenu li a:active{
+	text-decoration: none;
+	color: #37B0B0;
+	font-size: 20px;
+	font-weight: bold;
+	font-style: italic;
+}
+#busdownsec{
+	margin-top: 0px;
+}
+#busimgbox{
+	margin: auto;
+	width: 80%;
+
+}
+#busimg{
+	border-radius: 40%;	
+	height: 170px;
+	width: 100%;
+	margin: auto;
+}
+#busbox{
+	display: none;
+	
+}
+#bustext{
+	font-size: 18px;
+	line-height: 2;
+	text-align: center;
+	font-weight: bold;
+	
+}
+#synecticsbox{
+	width: 95%;
+	margin: auto;
+	margin-top: 2%;
+	height: 270px;
+}
+#synecticsimg{
+	opacity: 0.1;
+	height: 270px;
+	width: 100%;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+#synecticstext{
+	position: relative;
+	top: -270px;
+	left: 0;
+	padding: 2%;
+}
+#synecticsbox p, ol li{
+	font-size: 16px;
+	text-align: justify;
+	font-weight: bold;
+}
+#wiki a:link, #wiki a:visited{
+	text-decoration: none;
+	color: #001963;
+	font-style: italic;
+}
+#wiki a:hover, #wiki a:active{
+	text-decoration: none;
+	color: #37B0B0;
+	font-style: italic;
+}
+#bullseyebox{
+	width: 95%;
+	margin: auto;
+	margin-top: 2%;
+	height: 300px;
+}
+#bullseyeimg{
+	opacity: 0.1;
+	height: 300px;
+	width: 100%;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+#bullseyetext{
+	position: relative;
+	top: -300px;
+	left: 0;
+	padding: 2%;
+}
+#bullseyebox p, ol li{
+	font-size: 16px;
+	text-align: justify;
+	font-weight: bold;
+}
+#panaceabox{
+	width: 95%;
+	margin: auto;
+	margin-top: 2%;
+	height: 250px;
+}
+#panaceaimg{
+	opacity: 0.1;
+	height: 250px;
+	width: 100%;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+#panaceatext{
+	position: relative;
+	top: -250px;
+	left: 0;
+	padding: 2%;
+}
+#panaceabox p, ol li{
+	font-size: 16px;
+	text-align: justify;
+	font-weight: bold;
+}
+#anamenu{
+	list-style-type: none;
+	width: 95%;
+	padding-top: 2%;
+	padding-left: 0;
+	margin-top: 0px;
+	height: auto;
+}
+#anamenu li{
+	display: inline-block;
+	padding: 4% 5%;
+
+}
+#anamenu li a:link, #anamenu li a:visited{
+	padding: 2% 0;
+	text-decoration: none;
+	color: #001117;
+	font-size: 20px;
+	font-weight: bold;
+	font-style: italic;
+}
+#anamenu li a:hover, #anamenu li a:active{
+	text-decoration: none;
+	color: #37B0B0;
+	font-size: 20px;
+	font-weight: bold;
+	font-style: italic;
+}
+#anadownsec{
+	margin-top: 0px;
+}
+#anaimgbox{
+	margin: auto;
+	width: 80%;
+	padding-bottom: 3%;
+
+}
+#anaimg{
+	border-radius: 40%;	
+	height: 170px;
+	width: 100%;
+	margin: auto;
+}
+#anabox{
+	width:95%;
+	height: auto;
+	padding: 2%;
+	
+}
+#anatext, #anatext1{
+	font-size: 16px;
+	line-height: 2;
+	text-align: center;
+	font-weight: bold;
+	
+}
+#anabox blockquote{
+	font-size: 14px;
+	color: #999;
+}
+#footerbar{
+	list-style-type:none;
+	padding:0px;
+	margin: 0;
+	background-color: #808080;
+	overflow: hidden;
+	width: 100%;
+
+}
+
+#footerbar li{
+	float: left;
+	padding : 1% 5.5%;
+}
+#footerbar li a{
+	text-decoration:none;
+	display: inline-block;
+	text-align: center;
+	
+	font-size: 20px;
+	font-family: Josefin Sans;
+	font-weight: bold;
+	color: #000;
+}
+#footerbar li a:hover{
+	color: #B0E0E6;
+}
+#footerbar li:first-child{
+	margin-left: 1%;
+}
+#rights, #society{
+	display: none;
+}

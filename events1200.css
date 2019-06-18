@@ -1,0 +1,611 @@
+@import url('http://fonts.googleapis.com/css?family=Josefin+Sans');
+body{
+	padding: 0px;
+	margin: 0px;
+	font-family: josefin sans;
+}
+#header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 50;
+	background-color: #001963;
+	width: 100%;
+}
+#header ul{
+	list-style-type:none;
+	margin-top: 0;
+	padding: .5% 0;
+	
+}
+#header ul li{
+	font-family:josefin sans;
+	font-size: 30px;
+	font-weight:bold;
+	color: white;
+	display: inline;
+}
+#header ul li a{
+	color:#fff;
+	text-decoration: none;
+}
+#header ul li:first-child{
+	margin-right: 11%;
+	margin-left: 1%;
+
+}
+#header ul li:last-child{
+	float:right;
+	margin-right: 1%;
+}
+#headimagebackground{
+	width: 100%;
+	height: 300px;
+	margin-top: 4%; 
+}
+#sidemenu ul{
+	list-style-type:none;
+	background-color: #101A38;
+	padding:0;
+	margin: 0;
+	top: 0;
+	left: 0;
+	 z-index: 100; 
+	 position: fixed; 
+	width:100%;
+	height:100%;
+	position: fixed;
+	overflow: auto;
+}
+#sidemenu ul li a{
+	padding: 17px 0;
+	text-decoration: none;
+	font-family: Josefin Sans;
+	font-size: 24px;
+	color: #fff;
+	display: block;
+	text-align: center;
+	
+	font-weight: bold;
+}
+#sidemenu ul li a:hover:not(#spirit){
+	color: #000;
+
+}
+
+#spirit{
+	font-family: josefin sans;
+	font-size: 30px;
+	color: #CFE8FF;
+	border-bottom: 3px solid #CFE8FF;
+	border-radius: 0px;
+}
+#maindiv{
+	width:74%;
+	background-color: #F5F9FF;
+	margin: auto;
+	height: auto;
+
+	
+}
+#litmenu{
+	list-style-type: none;
+	width: 80%;
+	padding-left: 15%;
+	padding-top: 2%;
+	margin-top: 0px;
+}
+#litmenu li{
+	display: inline-block;
+	padding: 0.7%;
+}
+#litmenu li a:link, #litmenu li a:visited{
+	padding: 8% 0;
+	text-decoration: none;
+	color: #001117;
+	font-size: 26px;
+	font-weight: bold;
+	font-style: italic;
+}
+#litmenu li a:hover, #litmenu li a:active{
+	text-decoration: none;
+	color: #37B0B0;
+	font-size: 26px;
+	font-weight: bold;
+	font-style: italic;
+}
+#litdownsec{
+	margin-top: 30px;
+}
+#litimgbox{
+	padding: 7% 2%;
+	
+	float: left;
+	width: 47%;
+
+}
+#litimg{
+	border-radius: 40%;
+	float: left;
+	
+	height: 220px;
+	width: 60%;
+	margin: 0 20%;
+}
+#litbox{
+	width: 45%;
+	margin-left: 51%;
+	height: auto;
+	padding: 6.2% 2%;
+	
+}
+#littext{
+	font-size: 21px;
+	line-height: 2;
+	text-align: center;
+	font-weight: bold;
+	
+}
+.lithead{
+	color: #001963; font-size: 32px; font-weight: bold; font-style: italic;
+}
+#vectorbox{
+	width: 70%;
+	margin: auto;
+	margin-top: 2%;
+	height: 680px;
+}
+#vectorimg{
+	opacity: 0.1;
+	height: 680px;
+	width: 100%;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+#vectortext{
+	position: relative;
+	top: -680px;
+	left: 0;
+	padding: 0px 2% 0px 2%;
+}
+#vectorbox p, ol li{
+	font-size: 20px;
+	text-align: justify;
+	font-weight: bold;
+}
+#genusbox{
+	width: 70%;
+	margin: auto;
+	margin-top: 2%;
+	height: 400px;
+}
+#genusimg{
+	opacity: 0.1;
+	height: 400px;
+	width: 100%;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+#genustext{
+	position: relative;
+	top: -400px;
+	left: 0;
+	padding: 2%;
+}
+#genusbox p, ol li{
+	font-size: 20px;
+	text-align: justify;
+	font-weight: bold;
+}
+#ignitedbox{
+	width: 70%;
+	margin: auto;
+	margin-top: 2%;
+	height: 600px;
+}
+#ignitedimg{
+	opacity: 0.1;
+	height: 600px;
+	width: 100%;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+#ignitedtext{
+	position: relative;
+	top: -600px;
+	left: 0;
+	padding: 2%;
+}
+#ignitedbox p, ol li{
+	font-size: 20px;
+	text-align: justify;
+	font-weight: bold;
+}
+.clickhere a:link, .clickhere a:visited{
+	color: #001963;
+	text-decoration: none;
+	font-style: italic;
+}
+.clickhere a:hover, .clickhere a:active{
+	color: #37B0B0;
+	font-style: italic;
+}
+#scimenu{
+	list-style-type: none;
+	width: 80%;
+	padding-left: 15%;
+	padding-top: 2%;
+	margin-top: 0px;
+}
+#scimenu li{
+	display: inline-block;
+	padding: 1.7%;
+}
+#scimenu li a:link, #scimenu li a:visited{
+	padding: 8% 0;
+	text-decoration: none;
+	color: #001117;
+	font-size: 26px;
+	font-weight: bold;
+	font-style: italic;
+}
+#scimenu li a:hover, #scimenu li a:active{
+	text-decoration: none;
+	color: #37B0B0;
+	font-size: 26px;
+	font-weight: bold;
+	font-style: italic;
+}
+#scidownsec{
+	margin-top: 30px;
+}
+#sciimgbox{
+	padding: 10% 2%;
+	
+	width: 47%;
+	margin-left: 49%;
+}
+#sciimg{
+	border-radius: 40%;
+	margin-left: 49%;
+	
+	height: 220px;
+	width: 60%;
+	margin: 0 20%;
+}
+#scibox{
+	width: 45%;
+	float: left;
+	height: auto;
+	padding: 0.8% 2%;
+	
+}
+#scitext{
+	font-size: 21px;
+	line-height: 2;
+	text-align: center;
+	font-weight: bold;
+	
+}
+#polarisbox{
+	width: 70%;
+	margin: auto;
+	margin-top: 2%;
+	height: 280px;
+}
+#polarisimg{
+	opacity: 0.1;
+	height: 280px;
+	width: 100%;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+#polaristext{
+	position: relative;
+	top: -280px;
+	left: 0;
+	padding: 2%;
+}
+#polarisbox p, ol li{
+	font-size: 20px;
+	text-align: justify;
+	font-weight: bold;
+}
+#agnitiobox{
+	width: 70%;
+	margin: auto;
+	margin-top: 2%;
+	height: 380px;
+}
+#agnitioimg{
+	opacity: 0.1;
+	height: 380px;
+	width: 100%;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+#agnitiotext{
+	position: relative;
+	top: -380px;
+	left: 0;
+	padding: 2%;
+}
+#agnitiobox p, ol li{
+	font-size: 20px;
+	text-align: justify;
+	font-weight: bold;
+}
+#fabricabox{
+	width: 70%;
+	margin: auto;
+	margin-top: 2%;
+	height: 400px;
+}
+#fabricaimg{
+	opacity: 0.1;
+	height: 400px;
+	width: 100%;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+#fabricatext{
+	position: relative;
+	top: -400px;
+	left: 0;
+	padding: 2%;
+}
+#fabricabox p, ol li{
+	font-size: 20px;
+	text-align: justify;
+	font-weight: bold;
+}
+#busmenu{
+	list-style-type: none;
+	width: 80%;
+	padding-left: 15%;
+	padding-top: 2%;
+	margin-top: 0px;
+}
+#busmenu li{
+	display: inline-block;
+	padding: 1.7%;
+}
+#busmenu li a:link, #busmenu li a:visited{
+	padding: 8% 0;
+	text-decoration: none;
+	color: #001117;
+	font-size: 26px;
+	font-weight: bold;
+	font-style: italic;
+}
+#busmenu li a:hover, #busmenu li a:active{
+	text-decoration: none;
+	color: #37B0B0;
+	font-size: 26px;
+	font-weight: bold;
+	font-style: italic;
+}
+#busdownsec{
+	margin-top: 30px;
+}
+#busimgbox{
+	padding: 6% 2%;
+	
+	float: left;
+	width: 47%;
+
+}
+#busimg{
+	border-radius: 40%;
+	float: left;
+	
+	height: 220px;
+	width: 60%;
+	margin: 0 20%;
+}
+#busbox{
+	width: 45%;
+	margin-left: 51%;
+	height: auto;
+	padding: 3.6% 2%;
+	
+
+}
+#busbox blockquote{
+	font-size: 20px;
+	color: #999;
+}
+#bustext{
+	font-size: 21px;
+	line-height: 2;
+	text-align: center;
+	font-weight: bold;
+	
+}
+#synecticsbox{
+	width: 70%;
+	margin: auto;
+	margin-top: 2%;
+	height: 300px;
+}
+#synecticsimg{
+	opacity: 0.1;
+	height: 300px;
+	width: 100%;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+#synecticstext{
+	position: relative;
+	top: -300px;
+	left: 0;
+	padding: 2%;
+}
+#synecticsbox p, ol li{
+	font-size: 20px;
+	text-align: justify;
+	font-weight: bold;
+}
+#wiki a:link, #wiki a:visited{
+	text-decoration: none;
+	color: #001963;
+	font-style: italic;
+}
+#wiki a:hover, #wiki a:active{
+	text-decoration: none;
+	color: #37B0B0;
+	font-style: italic;
+}
+#bullseyebox{
+	width: 70%;
+	margin: auto;
+	margin-top: 2%;
+	height: 350px;
+}
+#bullseyeimg{
+	opacity: 0.1;
+	height: 350px;
+	width: 100%;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+#bullseyetext{
+	position: relative;
+	top: -350px;
+	left: 0;
+	padding: 2%;
+}
+#bullseyebox p, ol li{
+	font-size: 20px;
+	text-align: justify;
+	font-weight: bold;
+}
+#panaceabox{
+	width: 70%;
+	margin: auto;
+	margin-top: 2%;
+	height: 300px;
+}
+#panaceaimg{
+	opacity: 0.1;
+	height: 300px;
+	width: 100%;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+#panaceatext{
+	position: relative;
+	top: -300px;
+	left: 0;
+	padding: 2%;
+}
+#panaceabox p, ol li{
+	font-size: 20px;
+	text-align: justify;
+	font-weight: bold;
+}
+#anamenu{
+	list-style-type: none;
+	padding-left: 63%;
+	padding-top: 2%;
+	margin-top: 0px;
+}
+#anamenu li{
+	display: inline-block;
+	padding: 1.7%;
+}
+#anamenu li a:link, #anamenu li a:visited{
+	padding: 8% 0;
+	text-decoration: none;
+	color: #001117;
+	font-size: 26px;
+	font-weight: bold;
+	font-style: italic;
+}
+#anamenu li a:hover, #anamenu li a:active{
+	text-decoration: none;
+	color: #37B0B0;
+	font-size: 26px;
+	font-weight: bold;
+	font-style: italic;
+}
+#anadownsec{
+	margin-top: 30px;
+}
+#anaimgbox{
+	padding: 4% 2%;
+	
+	width: 47%;
+	margin-left: 49%;
+}
+#anaimg{
+	border-radius: 40%;
+	margin-left: 49%;
+	
+	height: 220px;
+	width: 60%;
+	margin: 0 20%;
+}
+#anabox{
+	width: 45%;
+	float: left;
+	height: auto;
+	padding: 1.3% 2%;
+	
+}
+#anatext{
+	font-size: 21px;
+	line-height: 2;
+	text-align: center;
+	font-weight: bold;
+	
+}
+#anatext1{
+	font-size: 22px;
+	line-height: 2;
+	text-align: center;
+	font-weight: bold;
+}
+#anabox blockquote{
+	font-size: 20px;
+	color: #999;
+}
+#footerbar{
+	list-style-type:none;
+	padding:0px;
+	margin: 0;
+	background-color: #808080;
+	overflow: hidden;
+	width: 100%;
+
+}
+
+#footerbar li{
+	float: left;
+	padding : 1% 1.2%;
+}
+#footerbar li a{
+	text-decoration:none;
+	display: inline-block;
+	text-align: center;
+	
+	font-size: 22px;
+	font-family: Josefin Sans;
+	font-weight: bold;
+	color: #000;
+}
+#footerbar li a:hover{
+	color: #B0E0E6;
+}
+#footerbar li:first-child{
+	padding-left: 2%;
+}

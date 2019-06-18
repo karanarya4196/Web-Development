@@ -1,0 +1,177 @@
+@import url('http://fonts.googleapis.com/css?family=Josefin+Sans');
+body{
+	padding: 0px;
+	margin: 0px;
+	font-family: josefin sans;
+}
+#header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 50;
+	background-color: #20B2AA;
+	width: 100%;
+}
+#header ul{
+	list-style-type:none;
+	margin-top: 0;
+	padding: .5% 0;
+	
+}
+#header ul li{
+	font-family:josefin sans;
+	font-size: 30px;
+	font-weight:bold;
+	color: white;
+	display: inline;
+}
+#header ul li a{
+	color:#fff;
+	text-decoration: none;
+}
+#header ul li:first-child{
+	margin-right: 11%;
+	margin-left: 1%;
+
+}
+#header ul li:last-child{
+	float:right;
+	margin-right: 1%;
+}
+#headimagebackground{
+	width: 100%;
+	height: 300px;
+	margin-top: 4%; 
+}
+#sidemenu ul{
+	list-style-type:none;
+	background-color: #008080;
+	padding:0;
+	margin: 0;
+	top: 0;
+	left: 0;
+	 z-index: 100; 
+	 position: fixed; 
+	width:100%;
+	height:100%;
+	position: fixed;
+	overflow: auto;
+}
+#sidemenu ul li a{
+	padding: 17px 30px;
+	text-decoration: none;
+	font-family: Josefin Sans;
+	font-size: 26px;
+	color: #fff;
+	display: block;
+	text-align: center;
+	
+	font-weight: bold;
+}
+#sidemenu ul li a:hover:not(#spirit){
+	color: #000;
+
+}
+
+#spirit{
+	font-family: josefin sans;
+	font-size: 30px;
+	color: #7FFFD4;
+	border-bottom: 3px solid #7FFFD4;
+	border-radius: 0px;
+}
+#maindiv{
+	width:74%;
+	background-color: #F0FFFF;
+	margin: auto;
+	height: auto;
+	padding: 3% 0;
+	
+}
+#formbox{
+	width: 70%;
+	margin: auto;
+	border-radius: 5%;
+	border: 7px groove #7FFFD4;
+	padding: 3% 5%;
+	margin-top: 0;
+}
+#formbox form p{
+	font-weight: bold;
+	font-size: 24px;
+}
+form p{
+	color: #008080;
+	font-style: italic;
+	line-height: 2;
+}
+input{
+width: 100%;
+display: block;
+border: 1px solid #999;
+height: 35px;
+-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+textarea{
+	width: 99.5%;
+	display: block;
+	border: 1px solid #999;
+	height: 150px;
+	-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+textarea:focus, input:focus {
+border: 2px solid #00CED1;
+}
+#submit{
+	background-color: 	#40E0D0;
+	color: 	#008080;
+	font-size: 24px;
+	font-weight: bold;
+	font-family: josefin sans;
+	height: 50px;
+}
+h1{
+	color: #008080;
+	font-style: italic;
+	font-size: 28px;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+
+
+#footerbar{
+	list-style-type:none;
+	padding:0px;
+	margin: 0;
+	background-color: #808080;
+	overflow: hidden;
+	width: 100%;
+
+}
+
+#footerbar li{
+	float: left;
+	padding : 1% 1.2%;
+}
+#footerbar li a{
+	text-decoration:none;
+	display: inline-block;
+	text-align: center;
+	
+	font-size: 22px;
+	font-family: Josefin Sans;
+	font-weight: bold;
+	color: #000;
+}
+#footerbar li a:hover{
+	color: #B0E0E6;
+}
+#footerbar li:first-child{
+	padding-left: 8%;
+}
